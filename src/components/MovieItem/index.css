@@ -1,0 +1,38 @@
+.thumbnail {
+  border: none;
+  border-radius: 10px;
+  margin: 0 12px;
+  width: 90%;
+  cursor: pointer;
+}
+
+.popup-content {
+  background-color: #ffffff;
+  width: 800px;
+  height: 420px;
+  border-radius: 12px;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.close-btn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  align-self: flex-end;
+  margin: 0 20px 16px 0;
+}
+
+.react-player {
+  width: 560px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
